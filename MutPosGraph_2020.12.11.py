@@ -40,10 +40,10 @@ def mutDistance(mutPosFile):
     
 
 def main():
-    f1 = "/Users/jacobmathai/Dropbox (Marraffini Lab)/Marraffini Lab Team Folder 2/Jacob (Marraffini Lab Dropbox)/Sequencing Files For Charlie/DCS-final-WT18Aplus-[C0.1].bam.pileup.mutpos"
-    f2 = "/Users/jacobmathai/Dropbox (Marraffini Lab)/Marraffini Lab Team Folder 2/Jacob (Marraffini Lab Dropbox)/Sequencing Files For Charlie/DCS-final-WT18plus-[C0.1].bam.pileup.mutpos"
-    f3 = "/Users/jacobmathai/Dropbox (Marraffini Lab)/Marraffini Lab Team Folder 2/Jacob (Marraffini Lab Dropbox)/Sequencing Files For Charlie/DCS-final-dHD18Bplus-[C0.1].bam.pileup.mutpos"
-    f4 = "/Users/jacobmathai/Dropbox (Marraffini Lab)/Marraffini Lab Team Folder 2/Jacob (Marraffini Lab Dropbox)/Sequencing Files For Charlie/DCS-final-dHD18plus-[C0.1].bam.pileup.mutpos"
+    f1 = "./DCS-final-WT18Aplus-[C0.1].bam.pileup.mutpos"
+    f2 = "./DCS-final-WT18plus-[C0.1].bam.pileup.mutpos"
+    f3 = "./DCS-final-dHD18Bplus-[C0.1].bam.pileup.mutpos"
+    f4 = "./DCS-final-dHD18plus-[C0.1].bam.pileup.mutpos"
     mutDistance(f1)
     mutDistance(f2)
     mutDistance(f3)
